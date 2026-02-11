@@ -1,0 +1,13 @@
+{
+  "name": "telegram-bots-api",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@vercel/kv": "^0.2.1",
+    "node-fetch": "^2.6.9"
+  }
+}
